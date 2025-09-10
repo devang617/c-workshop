@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{int N,i,sum;
+ printf("The number till which you want to find sum \n");
+ scanf("%d",&N);
+ sum=0;
+ for (i=1;i<=N;i++)
+  sum+=i;
+  printf("%d",sum);
+return 0;
+}
