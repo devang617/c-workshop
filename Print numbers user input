@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 { int i,a;
-  printf("Enter tje number till which you want numbers to be printed ");
+  printf("Enter the number till which you want numbers to be printed ");
   scanf("%d",&a);
   for(i=1;i<=a;i++)
     printf("%d \n",i);
