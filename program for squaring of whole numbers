@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{int N,d,i;
+ printf("Enter the number till which you want squares ");
+ scanf("%d",&N);
+ for(i=1;i<=N;i++)
+ {d=(i*i);
+ printf("%d * %d = %d \n",i,i,d);}
+ return 0;
+}
+ 
