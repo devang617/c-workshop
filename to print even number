@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{int i,number,term;
+ number=100;
+ for(i=0;i<=number;i++)
+  {term=(0+i*2);
+   printf("%d \n",term);
+  }
+ return 0;
+}
