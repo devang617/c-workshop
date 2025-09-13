@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{int number,i,next_term;
+ printf("To print multiplication of a number till its 10 multiple.\n Enter number=");
+ scanf("%d",&number);
+ for(i=1;i<=10;i++)
+  {next_term=(number*i);
+   printf("%d * %d = %d \n",number,i,next_term);
+  }
+ return 0;
+}
