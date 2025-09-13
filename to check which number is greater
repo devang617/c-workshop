@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{int number1,number2;
+ printf("program is for to check which number is greater.\n Enter the first number and second number respectively.");
+ scanf("%d \n %d",&number1,&number2);
+ if(number1>number2)
+  { printf("The number is greater %d",number1);
+  }
+ else if(number2>number1)
+  {printf("The number is greater %d",number2);
+  }
+ else
+  {printf("The number are same");
+  }
+return 0;
+}
