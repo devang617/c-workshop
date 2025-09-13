@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{int number,diff;
+ printf("To check number is odd or even using switch case.\n Enter number ");
+ scanf("%d",&number);
+ diff=(number%2);
+ switch(diff)
+  {case 1:
+  {printf("the number is odd.");
+  break;
+  }
+ case 0:
+  {printf("The number is even.");
+   break;
+  }
+ default:
+ printf("The number is not entered or invalid.");
+}
+return 0;
+}
