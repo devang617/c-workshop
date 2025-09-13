@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{int number,Remainder;
+ printf("The program is to check whether number is even or odd.\n Enter the number ");
+ scanf("%d",&number);
+ Remainder=(number%2);
+ if(Remainder==0)
+  { printf("The number is even.");
+  }
+ else
+  {printf("The number is odd.");
+  }
+ return 0;
+}
