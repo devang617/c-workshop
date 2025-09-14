@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{char alphabet;
+ printf("Type the alphabet any from a to z.");
+ scanf("%c",&alphabet);
+ switch(alphabet)
+ {case'a':
+  {printf("The alphabet is vowel");
+   break;
+  }
+ case'e':
+  {printf("The alphabet is vowel");
+   break;
+  }
+ case'i':
+  {printf("The alphabet is vowel");
+   break;
+  }
+ case'o':
+  {printf("The alphabet is vowel");
+   break;
+  }
+ case'u':
+  {printf("The alphabet is vowel");
+   break;
+  }
+ default:
+ {printf("The alphabet is consonant.");
+ }
+ }
+return 0;
+}
