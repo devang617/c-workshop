@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{int arr[5];
+ int i;
+ for(i=0;i<5;i++)
+ {printf("Enter number =>");
+  scanf("%d",&arr[i]);
+ }
+ printf("%d",arr[2]);
+ return 0;
+}
